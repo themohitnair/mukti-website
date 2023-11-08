@@ -1,0 +1,114 @@
+/*Body*/
+.block {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(136, 0, 133, 0.7);
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+    padding: 50px 50px;
+    font-family: "Source Code Pro";
+    border: 10px solid #1A0734;
+    text-align: justify;
+    align-items: center;
+}
+.block > p {
+    font-size: 20px;
+}
+.block > center > h1 {
+    font-size: 70px;
+}
+/*Body*/
+
+/*Social Media Icons*/
+.block .icons .icon a i{
+    width: 1px;
+    color: #eeeacd
+}
+.block .icons .icon a{
+    font-size: 24px;
+    color: #eeeacd;
+    text-decoration: none;
+}
+.block .icons .icon a:hover {
+    font-size: 25px;
+    color: #eeeacd;
+    font-weight: bold;
+    text-decoration: none;
+}
+.block .icons h3 {
+    font-size: 45px;
+    text-align: center;
+}
+.icons {
+    width: 30%;
+    background-color: black;
+    box-shadow: 10px 10px rgba(105, 104, 128, 1);
+    padding: 15px 30px;
+}
+.icons:hover {
+    box-shadow: 2px 2px;
+    transition: 0.5s;
+}
+/*Social Media Icons*/
+
+/*Form*/
+.formandmed {
+    display: flex;
+    justify-content: space-between;
+}
+.form {
+    width: 55%;
+    background-color: black;
+    box-shadow: 10px 10px rgba(105, 104, 128, 1);
+    padding: 15px 30px;
+}
+.form:hover {
+    box-shadow: 2px 2px;
+    transition: 0.5s;
+}
+.block .form h3 {
+    font-size: 45px;
+    text-align: center;
+}
+.block .form .textboxes input[type = "text"], .block .form .textboxes input[type = "email"]{
+    background-color: black;
+    color: white;
+    height: 40px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    border-bottom: 2px dashed rgba(105, 104, 128, 1);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 60%;
+    font-family: "Source Code Pro";
+    font-size: 20px;
+    margin-top: 2%;    
+}
+::placeholder {
+    font-family: "Source Code Pro";
+    color: rgb(149, 148, 161);
+    font-size: 20px;
+}
+.textboxes {
+    display: block;
+}
+#message {
+    width: 80%;
+    margin: 2% 2px;
+    padding: 10px;
+    border: 1px solid rgb(149, 148, 161);
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: black; 
+    border-radius: 10px;
+    color: white;
+    font-family: "Source Code Pro"; 
+    font-size: 20px;
+}
+/*Form*/
