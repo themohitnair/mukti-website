@@ -1,0 +1,168 @@
+body {
+    background-image: url(logos-and-mascots/pattern.png);
+    background-repeat: repeat;
+    background-color: #3f3f4e;    
+}
+
+/*Navbar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A0734;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.rightnav li {
+    float: right;
+}
+.icon {
+    height: 71px;
+    border: 0px;
+    border-radius: 10px;
+}
+.leftnav li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 25px;
+    text-decoration: none;
+    font-family: "Open Sans";
+    color: #EEEACD;
+    font-weight: bold;
+    font-size: 20px;
+}  
+li a:hover {
+    background-color: black;
+}
+/*NavBar*/
+
+/*Welcome Block*/
+.mukti {
+    width: 100%;
+    border-radius: 20px;
+}
+.welc {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(136, 0, 133, 0.7) ;
+    border-radius: 20px;
+    color: #EEEACD;
+    margin-top: 30px;
+    padding: 22px 50px;
+    font-family: "Source Code Pro";
+    border: 10px solid #1A0734;
+    text-align: justify;
+}
+.welc > p {
+    font-size: 20px;
+}
+.welc > center > h1 {
+    font-size: 70px;
+}
+/*Welcome*/
+
+
+
+/*Join Us Block*/
+.joinusform {
+    border: 0px;
+    background-color:#3CB371; 
+    color: #EEEACD;
+    padding: 10px;
+    width: 200px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 5px #3f3f4e;
+}
+.joinusform:hover {
+    background-color:#A69064;
+    box-shadow: 0px 5px #3f3f4e;
+    transition: 0.5s;
+}
+.joinusform:active {
+    box-shadow: 0px 1px #3e3d53;
+    transform: translateY(4px);
+    transition: 0.2s;
+}
+.join {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(105, 104, 128, 0.8);
+    border-radius: 20px;
+    color: #EEEACD;
+    margin-top: 15px;
+    padding: 22px 50px;
+    font-family: "Source Code Pro";
+    border: 10px solid #1A0734;
+    text-align: justify;
+}
+.join > p {
+    font-size: 20px;
+}
+.join > h1{
+    font-size: 50px;
+}
+/*Join Us Block*/
+
+/*Event Board*/
+.event {
+    background-color:black; 
+    padding: 20px;
+    box-shadow: 10px 10px rgba(105, 104, 128, 1);
+    width: 27%;
+    height: inherit;
+    font-size: 17px;
+    display: inline-flex;
+}
+.event > h1> p {
+    font-size: 20px;
+}
+.event:hover {
+    box-shadow: 0px 0px;
+    translate: translateX(10px) translateY(10px);
+    transition: 0.5s;
+}
+.event > div > h1 {
+    font-size: 50px;
+    font-family: "Oswald";
+}
+.events .stickynotes .event a{
+    color: white;
+}
+.events .stickynotes .event a:hover{
+    font-weight: bold;    
+}
+.events {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(136, 0, 133, 0.7);
+    border-radius: 20px;
+    color: white;
+    margin-top: 15px;
+    padding: 22px 50px;
+    font-family: "Source Code Pro";
+    border: 10px solid #1a0734;
+    display: block;
+    font-size: 30px;
+}
+.stickynotes {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+/*Event Board*/
+
+
+
+

@@ -1,0 +1,45 @@
+/*Body*/
+.mukti {
+    width: 100%;
+    border-radius: 20px;
+}
+.bod {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(255,255,255,0.7);
+    border-radius: 20px;
+    color: black;
+    margin-top: 30px;
+    padding: 22px 50px;
+    font-family: "Source Code Pro";
+    border: 10px solid #1A0734;
+    text-align: justify;
+    align-items: center;
+}
+.bod > p {
+    font-size: 20px;
+}
+.bod > center > h1 {
+    font-size: 70px;
+}
+/*Body*/
+
+/*Sponsor Images*/
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.gdrl {
+    margin-top: 5%;
+}
+.mh {
+    margin-top: 4%;
+}
+.fsmi {
+    margin-top: 8%;
+}
+/*Sponsor Images*/

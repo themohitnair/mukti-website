@@ -1,0 +1,47 @@
+body {
+    background-image: url(/logos-and-mascots/pattern.png);
+    background-repeat: repeat;
+    background-color: #3f3f4e;    
+}
+
+/*Navbar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A0734;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.rightnav li {
+    float: right;
+}
+.icon {
+    height: 71px;
+    border: 0px;
+    border-radius: 10px;
+}
+.leftnav li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 25px;
+    text-decoration: none;
+    font-family: "Open Sans";
+    color: #EEEACD;
+    font-weight: bold;
+    font-size: 20px;
+}  
+li a:hover {
+    background-color: black;
+}
+/*NavBar*/
