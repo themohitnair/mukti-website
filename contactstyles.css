@@ -41,7 +41,7 @@
     text-align: center;
 }
 .icons {
-    width: 30%;
+    width: 35%;
     background-color: black;
     box-shadow: 10px 10px rgba(105, 104, 128, 1);
     padding: 15px 30px;
@@ -55,10 +55,10 @@
 /*Form*/
 .formandmed {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .form {
-    width: 55%;
+    width: 40%;
     background-color: black;
     box-shadow: 10px 10px rgba(105, 104, 128, 1);
     padding: 15px 30px;
