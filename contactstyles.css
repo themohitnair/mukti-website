@@ -111,4 +111,26 @@
     font-family: "Source Code Pro"; 
     font-size: 20px;
 }
+.butt {
+    border: 0px;
+    background-color:#3CB371; 
+    color: #EEEACD;
+    padding: 10px;
+    width: 200px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 5px #3f3f4e;
+    margin: 5% 25% 5% 35%;
+}
+.butt:hover {
+    background-color:#A69064;
+    box-shadow: 0px 5px #3f3f4e;
+    transition: 0.5s;
+}
+.butt:active {
+    box-shadow: 0px 1px #3e3d53;
+    transform: translateY(4px);
+    transition: 0.2s;
+}
 /*Form*/
