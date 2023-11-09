@@ -103,6 +103,9 @@ body {
 .events .stickynotes .event a:hover{
     font-weight: bold;    
 }
+.events>center>h1 {
+    font-size: 60px;
+}
 .events {
     width: 70%;
     margin: auto;
@@ -114,7 +117,6 @@ body {
     font-family: "Source Code Pro";
     border: 10px solid #1a0734;
     display: block;
-    font-size: 35px;
     justify-content: center;
 }
 .stickynotes {
@@ -132,7 +134,7 @@ body {
     .event {
         margin: auto;
         margin-top: 20px;
-        width: 70%;
+        width: 80%;
     }
 
 }
@@ -144,8 +146,11 @@ body {
     .join > h1{
         font-size: 40px;
     }
-    .events {
-        font-size: 20px;
+    .events>center>h1 {
+        font-size: 40px;
+    }
+    .events, .join, .welc {
+        padding: 15px 20px;
     }
 
 }
@@ -153,7 +158,6 @@ body {
 @media screen and (max-width: 650px){
     .join, .events, .welc {
         width: 85%;
-        padding: 15px 20px;
     }
 }
 
