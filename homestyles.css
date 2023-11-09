@@ -134,6 +134,16 @@ body {
 
 }
 
+@media screen and (max-width:1050px){
+    .welc > center > h1 {
+        font-size: 40px;
+    }
+    .join > h1{
+        font-size: 40px;
+    }
+
+}
+
 
 
 

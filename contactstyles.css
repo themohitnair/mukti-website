@@ -58,6 +58,7 @@
 /*Form*/
 .formandmed {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 .form {
@@ -123,9 +124,7 @@
     border-radius: 7px;
     font-size: 20px;
     font-weight: bold;
-    box-sh    .event {
-        flex-grow: 1;
-    }adow: 0 5px #3f3f4e;
+    box-shadow: 0 5px #3f3f4e;
     margin: 5% 25% 5% 35%;
 }
 .butt:hover {
@@ -139,3 +138,14 @@
     transition: 0.2s;
 }
 /*Form*/
+
+@media screen and (max-width: 1500px) {
+    .formandmed {
+        flex-direction: column;
+    }
+    .form, .med {
+        width: inherit;
+        margin-top: 30px;
+    }
+    
+}
