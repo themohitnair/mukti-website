@@ -132,7 +132,7 @@
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0 5px #3f3f4e;
-    margin: 5% 25% 5% 35%;
+    margin: auto;
 }
 .butt:hover {
     background-color:#A69064;
