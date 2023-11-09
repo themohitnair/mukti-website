@@ -6,7 +6,7 @@
     border-radius: 20px;
     color: white;
     margin-top: 30px;
-    padding: 5px 50px;
+    padding: 5px 3%;
     font-family: "Source Code Pro";
     border: 10px solid #1A0734;
     text-align: justify;
@@ -66,7 +66,7 @@
 .formandmed {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .form {
     width: 40%;
@@ -167,20 +167,17 @@
         display: none;
     }
     .moblinks {
+        display: block;
+        justify-content: center;
+    }   
+    .links1, .links2 {
         display: flex;
         justify-content: space-around;
+        margin: auto;
     }
+    .ics, .form {
+        padding: 35px 10px;
+        align-items: center;
+    } 
     
-}
-@media screen and (max-width: 690px) {
-    .is a span {
-        display: none;
-    }
-    .medlinks {
-        display: none;
-    }
-    .moblinks {
-        display: flex;
-        justify-content: space-around;
-    }    
 }
