@@ -48,7 +48,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1400px) {
 
     .topnav
     {
@@ -61,7 +61,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1400px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
