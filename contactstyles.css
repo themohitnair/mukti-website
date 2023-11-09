@@ -172,19 +172,25 @@
     .moblinks {
         display: block;
         justify-content: center;
+        overflow: scroll;
     }   
     .links1, .links2 {
         display: flex;
         justify-content: space-around;
+        
     }
     .ics, .form {
-        padding: 15px 5px;
+        padding: 15px 30px;
         padding-right: 5%;
         padding-bottom: 15%;
         align-items: center;
+        overflow: scroll;
     } 
     .form, .med {
         box-shadow: 0px 0px;
+    }
+    .block .form h3, .block .ics h3 {
+        font-size: 30px;
     }
     
 }

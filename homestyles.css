@@ -161,6 +161,9 @@ body {
     .mukti {
         display: none;
     }
+    .join > p, .welc > p {
+        font-size: 15px;
+    }
 }
 
 

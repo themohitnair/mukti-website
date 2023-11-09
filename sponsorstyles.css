@@ -25,21 +25,32 @@
 /*Body*/
 
 /*Sponsor Images*/
-.row1 {
+.sponsors {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
-.row2 {
-    display: flex;
-    justify-content: space-evenly;
+.logo {
+    margin: auto;
+    overflow: scroll;
 }
-.gdrl {
-    margin-top: 5%;
-}
-.mh {
-    margin-top: 4%;
-}
-.fsmi {
-    margin-top: 8%;
-}
+
 /*Sponsor Images*/
+
+
+@media screen and (max-width: 900px) {
+    .bod > center > h1 {
+        font-size: 40px;
+    }
+    .bod > p {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .logo {
+        margin-top: 20px;
+    }    
+}
