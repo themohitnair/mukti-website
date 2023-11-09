@@ -85,7 +85,7 @@ body {
     font-size: 17px;
     display: inline-block;
 }
-.event > h1> p {
+.event > h1 > p {
     font-size: 20px;
 }
 .event:hover {
@@ -114,7 +114,7 @@ body {
     font-family: "Source Code Pro";
     border: 10px solid #1a0734;
     display: block;
-    font-size: 30px;
+    font-size: 35px;
     justify-content: center;
 }
 .stickynotes {
@@ -144,13 +144,16 @@ body {
     .join > h1{
         font-size: 40px;
     }
+    .events {
+        font-size: 20px;
+    }
 
 }
 
 @media screen and (max-width: 650px){
     .join, .events, .welc {
-        width: 90%;
-        padding: 15px 15px;
+        width: 85%;
+        padding: 15px 20px;
     }
 }
 
