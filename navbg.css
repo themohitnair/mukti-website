@@ -12,7 +12,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #1a0734;
-  width: 80%;
+  width: 97vw;
   margin: auto;
   margin-top: 10px;
   border-radius: 20px;
@@ -52,7 +52,7 @@ body {
 
     .topnav
     {
-        width: 98vw;
+        width: 97vw;
     }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
