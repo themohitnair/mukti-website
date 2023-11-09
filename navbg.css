@@ -52,7 +52,7 @@ body {
 
     .topnav
     {
-        width: 100%;
+        width: 100vw;
     }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
