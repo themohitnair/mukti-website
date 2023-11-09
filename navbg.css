@@ -5,43 +5,72 @@ body {
 }
 
 /*Navbar*/
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1A0734;
-    border-radius: 20px;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-.rightnav li {
-    float: right;
-}
-.icon {
-    height: 71px;
-    border: 0px;
-    border-radius: 10px;
-}
-.leftnav li {
-    float: left;
+.logoimg {
+    height: 50px;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 22px 25px;
-    text-decoration: none;
-    font-family: "Open Sans";
-    color: #EEEACD;
-    font-weight: bold;
-    font-size: 20px;
-}  
-li a:hover {
-    background-color: black;
+.topnav {
+  overflow: hidden;
+  background-color: #1a0734;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
 }
-/*NavBar*/
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #eeeacd;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Open Sans";
+}
+
+.topnav a[class = "logo"]{
+    float: left;
+    padding: 12px 14px;
+}
+
+.topnav a[class = "logo"]:hover{
+    float: left;
+    background-color: #1a0734;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: #eeeacd;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1700px) {
+
+    .topnav
+    {
+        width: 100%;
+    }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}

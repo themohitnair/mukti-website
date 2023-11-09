@@ -21,32 +21,35 @@
 /*Body*/
 
 /*Social Media Icons*/
-.block .icons .icon a i{
+.block .ics .is a i{
     width: 1px;
     color: #eeeacd
 }
-.block .icons .icon a{
+.is {
+    margin-top: 20px;
+}
+.block .ics .is a{
     font-size: 24px;
     color: #eeeacd;
     text-decoration: none;
 }
-.block .icons .icon a:hover {
+.block .ics .is a:hover {
     font-size: 25px;
     color: #eeeacd;
     font-weight: bold;
     text-decoration: none;
 }
-.block .icons h3 {
+.block .ics h3 {
     font-size: 45px;
     text-align: center;
 }
-.icons {
+.ics {
     width: 35%;
     background-color: black;
     box-shadow: 10px 10px rgba(105, 104, 128, 1);
     padding: 15px 30px;
 }
-.icons:hover {
+.ics:hover {
     box-shadow: 2px 2px;
     transition: 0.5s;
 }
@@ -120,7 +123,9 @@
     border-radius: 7px;
     font-size: 20px;
     font-weight: bold;
-    box-shadow: 0 5px #3f3f4e;
+    box-sh    .event {
+        flex-grow: 1;
+    }adow: 0 5px #3f3f4e;
     margin: 5% 25% 5% 35%;
 }
 .butt:hover {

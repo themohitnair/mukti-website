@@ -27,23 +27,29 @@
     </head>
 <body>
     <!--Navbar-->
-    <div class = "navbar">
-        <div class = "leftnav">
-                <li><a href = "index.html">Home</a></li>
-                <li><a href="aboutmukti.html">About</a></li>
-                <li><a href="partnerform.html">Partner With Us</a></li>
-                <li><a href="oursponsors.html">Our Sponsors</a></li>
-        </div>
-        <div class = "navlogo">
-                <li class = "icon"><img class = "icon" src = "logos-and-mascots/India.jpg"></li>
-        </div>
-        <div class = "rightnav">
-                <li><a href = "https://github.com/themohitnair/mukti-website">Source Code</a></li>
-                <li><a href= "contact.html">Contact</a></li>     
-                <li><a class = "active" href="events.html">Events</a></li>
-                <li><a href="testimonies.html">Testimonies</a></li>                
-        </div>
+    <div class="topnav" id="myTopnav">
+        <a class = "logo" href = "index.html"><img class = "logoimg" src = "logos-and-mascots/mukti.png"></a>
+        <a href = "https://github.com/themohitnair/mukti-website">Source Code</a>
+        <a href="testimonies.html">Testimonies</a>     
+        <a href="partnerform.html">Partner With Us</a>
+        <a href="oursponsors.html">Our Sponsors</a>    
+        <a href="contact.html">Contact</a>    
+        <a href="events.html">Events</a>
+        <a href="aboutmukti.html">About</a>
+        <a class ="active" href = "index.html">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
     </div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
     <!--Navbar-->
     
     <!--Block-->
