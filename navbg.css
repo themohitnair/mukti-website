@@ -71,6 +71,9 @@ body {
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: center;
+    text-align: right;
+  }
+  .topnav.responsive a[class = "logo"] {
+    text-align: left;
   }
 }
