@@ -6,11 +6,12 @@
     border-radius: 20px;
     color: white;
     margin-top: 30px;
-    padding: 50px 50px;
+    padding: 5px 50px;
     font-family: "Source Code Pro";
     border: 10px solid #1A0734;
     text-align: justify;
     align-items: center;
+    padding-bottom: 6%;
 }
 .block > p {
     font-size: 20px;
@@ -43,6 +44,9 @@
     font-size: 45px;
     text-align: center;
 }
+.links {
+    display: flex;
+}
 .ics {
     width: 35%;
     background-color: black;
@@ -53,13 +57,16 @@
     box-shadow: 2px 2px;
     transition: 0.5s;
 }
+.moblinks {
+    display: none;
+}
 /*Social Media Icons*/
 
 /*Form*/
 .formandmed {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .form {
     width: 40%;
@@ -144,8 +151,23 @@
         flex-direction: column;
     }
     .form, .med {
-        width: inherit;
+        margin: auto;
+        width: 90%;
         margin-top: 30px;
     }
-    
+    .block > center > h1 {
+        font-size: 50px;
+    }    
+}
+
+@media screen and (max-width: 690px) {
+    .is a span {
+        display: none;        
+    }
+    .medlinks {
+        display: none;
+    }
+    .moblinks {
+        display: flex;
+    }
 }
