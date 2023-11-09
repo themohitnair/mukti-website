@@ -160,6 +160,9 @@
     }    
 }
 @media screen and (max-width: 690px) {
+    .block {
+        width: 80%;
+    }
     .is a span {
         display: none;
     }
@@ -175,7 +178,9 @@
         justify-content: space-around;
     }
     .ics, .form {
-        padding: 35px 20px;
+        padding: 15px 5px;
+        padding-right: 5%;
+        padding-bottom: 15%;
         align-items: center;
     } 
     .form, .med {
