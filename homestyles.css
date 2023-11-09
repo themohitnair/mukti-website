@@ -152,12 +152,14 @@ body {
     .events, .join, .welc {
         padding: 15px 20px;
     }
-
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 690px){
     .join, .events, .welc {
-        width: 85%;
+        width: 85vw;
+    }
+    .mukti {
+        display: none;
     }
 }
 
