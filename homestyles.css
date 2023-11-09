@@ -156,7 +156,7 @@ body {
 
 @media screen and (max-width: 690px){
     .join, .events, .welc {
-        width: 85vw;
+        width: 82vw;
     }
     .mukti {
         display: none;
