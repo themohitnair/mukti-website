@@ -20,6 +20,7 @@ body {
     font-family: "Source Code Pro";
     border: 10px solid #1A0734;
     text-align: justify;
+    justify-content: center;
 }
 .welc > p {
     font-size: 20px;
@@ -64,6 +65,7 @@ body {
     font-family: "Source Code Pro";
     border: 10px solid #1A0734;
     text-align: justify;
+    justify-content: center;
 }
 .join > p {
     font-size: 20px;
@@ -113,6 +115,7 @@ body {
     border: 10px solid #1a0734;
     display: block;
     font-size: 30px;
+    justify-content: center;
 }
 .stickynotes {
     display: flex;
@@ -142,6 +145,13 @@ body {
         font-size: 40px;
     }
 
+}
+
+@media screen and (max-width: 650px){
+    .join, .events, .welc {
+        width: 90%;
+        padding: 15px 15px;
+    }
 }
 
 
