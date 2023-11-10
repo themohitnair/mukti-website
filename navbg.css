@@ -31,7 +31,7 @@ body {
 
 .topnav a[class = "logo"]{
     float: left;
-    padding: 12px 14px;
+    padding: 10px 14px;
 }
 
 .topnav a[class = "logo"]:hover{
@@ -42,6 +42,11 @@ body {
 .topnav a:hover {
   background-color: black;
   color: #eeeacd;
+}
+
+.topnav a[class = "active"]{
+  background-color: #880085;
+  color: white;
 }
 
 .topnav .icon {
