@@ -35,6 +35,10 @@
     margin: auto;
     overflow: scroll;
 }
+.mh {
+    max-width: 80%;
+}
+
 
 /*Sponsor Images*/
 
