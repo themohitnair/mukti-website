@@ -1,0 +1,22 @@
+/*Body*/
+.block {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(136, 0, 133, 0.7);
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+    padding: 5px 3%;
+    font-family: "Source Code Pro";
+    border: 10px solid #1A0734;
+    text-align: justify;
+    align-items: center;
+    padding-bottom: 6%;
+}
+.block > p {
+    font-size: 20px;
+}
+.block > center > h1 {
+    font-size: 70px;
+}
+/*Body*/
