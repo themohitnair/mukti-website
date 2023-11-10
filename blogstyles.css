@@ -60,6 +60,7 @@
 .date {
     text-align: right;
     bottom: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .blog a {
     text-decoration: none;
