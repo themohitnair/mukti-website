@@ -121,6 +121,7 @@
     color: white;
     font-family: "Source Code Pro"; 
     font-size: 20px;
+    margin-top: 4%;
 }
 .butt {
     border: 0px;
@@ -133,6 +134,7 @@
     font-weight: bold;
     box-shadow: 0 5px #3f3f4e;
     margin: auto;
+    margin-top: 10%;
 }
 .butt:hover {
     background-color:#A69064;
@@ -152,7 +154,7 @@
     }
     .form, .med {
         margin: auto;
-        width: 90%;
+        width: 80%;
         margin-top: 30px;
     }
     .block > center > h1 {
@@ -171,13 +173,16 @@
     }
     .moblinks {
         display: block;
+        max-width: 90%;
         justify-content: center;
         overflow: scroll;
     }   
     .links1, .links2 {
         display: flex;
-        justify-content: space-around;
-        
+        justify-content: space-around;        
+    }
+    .block > center > h1 {
+        font-size: 40px;
     }
     .ics, .form {
         padding: 15px 30px;

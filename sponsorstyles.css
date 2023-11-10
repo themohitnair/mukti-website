@@ -31,7 +31,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.logo {
+.ico {
     margin: auto;
     overflow: scroll;
 }
@@ -54,7 +54,7 @@
 }
 
 @media screen and (max-width: 640px) {
-    .logo {
+    .ico {
         margin-top: 20px;
     }    
 }
