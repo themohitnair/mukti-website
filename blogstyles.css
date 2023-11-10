@@ -1,6 +1,6 @@
 /*Body*/
 .block {
-    width: 70%;
+    width: 80%;
     margin: auto;
     background-color: rgba(136, 0, 133, 0.7);
     border-radius: 20px;
@@ -77,3 +77,24 @@
     font-size: 20px;
 }
 /*Blog Post Snippets*/
+
+@media screen and (max-width: 1415px) {
+    .blog {
+        flex-direction: column;
+    }
+    .thumbnail {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .block > center > h1 {
+        font-size: 45px;
+    }    
+}
+
+@media screen and (max-width: 650px) {
+    .block {
+        width: 85vw;
+    }        
+}
