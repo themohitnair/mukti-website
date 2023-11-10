@@ -84,6 +84,7 @@ body {
     height: inherit;
     font-size: 17px;
     display: inline-block;
+    border-radius: 20px;
 }
 .event > h1 > p {
     font-size: 20px;
