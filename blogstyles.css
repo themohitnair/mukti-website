@@ -1,0 +1,71 @@
+/*Body*/
+.block {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(136, 0, 133, 0.7);
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+    padding: 5px 3%;
+    font-family: "Source Code Pro";
+    border: 10px solid #1A0734;
+    text-align: justify;
+    align-items: center;
+    padding-bottom: 6%;
+}
+.block > p {
+    font-size: 20px;
+}
+.block > center > h1 {
+    font-size: 70px;
+}
+/*Body*/
+
+/*Blog Post Snippets*/
+.blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blog {
+    background-color: black;
+    box-shadow: 10px 10px rgba(105, 104, 128, 1);
+    padding: 2%;
+    width: 97%;
+    height: 15%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog:hover {
+    box-shadow: 1px 1px;
+    transition: 0.2s;
+}
+.thumbnail {
+    width: 100%;
+    border-radius: 20px;
+    padding: 3% 1%;
+}
+.writ {
+    width: 200%;
+    text-align: left;
+    margin-left:3%;
+    overflow: hidden;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.date {
+    text-align: right;
+    bottom: 5px;
+}
+.blog a {
+    text-decoration: none;
+    color: #eeeacd
+}
+.blog a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+/*Blog Post Snippets*/
