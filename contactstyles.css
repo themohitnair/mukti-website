@@ -148,6 +148,9 @@
 }
 /*Form*/
 
+.form, .med {
+    border-radius: 20px;
+}
 @media screen and (max-width: 1500px) {
     .formandmed {
         flex-direction: column;
