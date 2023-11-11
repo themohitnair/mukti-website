@@ -13,10 +13,52 @@
     align-items: center;
     padding-bottom: 6%;
 }
-.block > p {
-    font-size: 20px;
+.block p {
+    font-size: 25px;
 }
 .block > center > h1 {
     font-size: 70px;
 }
 /*Body*/
+
+.thumbnail {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.image {
+    margin: auto;
+    text-align: center;
+}
+
+.block > .blog > h2 {
+    font-size: 45px;
+    border-bottom: 2px solid black;
+}
+.block > .blog > h3 {
+    font-size: 39px;
+    border-bottom: 2px solid #1A0734;
+}
+.block > .blog > h4 {
+    font-size: 33px;
+}
+
+@media screen and (max-width: 1260px) {
+    .block > center > h1 {
+        font-size: 50px;
+    }
+    .block > .blog > h2 {
+        font-size: 40px;
+        border-bottom: 2px solid black;
+    }
+    .block > .blog > h3 {
+        font-size: 34px;
+        border-bottom: 2px solid #1A0734;
+    }
+    .block > .blog > h4 {
+        font-size: 29px;
+    }
+    .block p {
+        font-size: 20px;
+    }
+}

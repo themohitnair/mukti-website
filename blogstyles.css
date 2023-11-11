@@ -30,7 +30,8 @@
 .blog {
     background-color: black;
     box-shadow: 10px 10px rgba(105, 104, 128, 1);
-    padding: 2%;
+    padding: 0% 2%;
+    padding-bottom: 1%;
     width: 97%;
     height: 15%;
     margin: auto;
