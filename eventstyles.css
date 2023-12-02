@@ -39,7 +39,7 @@
     color: white;
     margin-top: 1%;
     padding: 1% 2%;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     border: 10px solid #1a0734;
     display: block;
     justify-content: center;

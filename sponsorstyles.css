@@ -11,7 +11,7 @@
     color: black;
     margin-top: 30px;
     padding: 22px 50px;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     border: 10px solid #1A0734;
     text-align: justify;
     align-items: center;

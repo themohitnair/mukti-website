@@ -17,7 +17,7 @@ body {
     color: #EEEACD;
     margin-top: 30px;
     padding: 22px 50px;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     border: 10px solid #1A0734;
     text-align: justify;
     justify-content: center;
@@ -62,7 +62,7 @@ body {
     color: #EEEACD;
     margin-top: 15px;
     padding: 22px 50px;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     border: 10px solid #1A0734;
     text-align: justify;
     justify-content: center;
@@ -115,7 +115,7 @@ body {
     color: white;
     margin-top: 15px;
     padding: 22px 50px;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     border: 10px solid #1a0734;
     display: block;
     justify-content: center;

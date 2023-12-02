@@ -7,7 +7,7 @@
     color: white;
     margin-top: 30px;
     padding: 5px 3%;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     border: 10px solid #1A0734;
     text-align: justify;
     align-items: center;
@@ -94,12 +94,12 @@
     -moz-box-shadow: none;
     box-shadow: none;
     width: 60%;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     font-size: 20px;
     margin-top: 2%;    
 }
 ::placeholder {
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     color: rgb(149, 148, 161);
     font-size: 20px;
 }
@@ -119,7 +119,7 @@
     background-color: black; 
     border-radius: 10px;
     color: white;
-    font-family: "Source Code Pro"; 
+    font-family: "Source Code Pro", monospace; 
     font-size: 20px;
     margin-top: 4%;
 }

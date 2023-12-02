@@ -7,7 +7,7 @@
     color: white;
     margin-top: 30px;
     padding: 5px 3%;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     border: 10px solid #1A0734;
     text-align: justify;
     align-items: center;
